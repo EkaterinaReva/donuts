@@ -1,0 +1,262 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+   
+    }
+.item{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family:'Bubblegum Sans', cursive;
+    color: #F48AF4;
+    margin-right: 30px;
+    font-size: 28px;
+   }
+.first{
+    margin-right: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background:  linear-gradient( to right,#db4fdb, #ebf306);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 20px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+.about{
+    display: flex;
+}
+.main{
+    flex: 1;
+    margin-top: 10px;
+}
+body{
+    background-color: #9BF6FF;
+    background-image: url(fon1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}
+.par{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+h3{
+    font-size: 28px;
+    color: white;
+    font-family: 'Lemon', cursive;
+    margin: 10px;
+    padding: 10px; 
+}
+p{
+    font-family: 'Lemon', cursive;
+    font-size: 24px;
+    background:  linear-gradient( to right,white, #FDFFB6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+   margin-right: 30px;
+   margin-left: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+    .btn{
+    background-color: #FFC6FF;
+    border: 3px solid white;
+    color:#FDFFB6;
+    font-family: 'Lemon', cursive;
+    margin: 40px;
+    padding: 15px;
+    font-size: 20px;
+    width: 40vh;
+    }
+    
+.text-input{
+    background-color: hsla(172, 75%, 89%, 0.938);
+   border: none;
+   font-size: 18px;
+padding: 10px 10px 25px 25px;
+    margin:3px;
+    font-family: 'Bubblegum Sans', cursive; 
+}
+    .header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.head{
+    background: linear-gradient( to right,#FFC6FF,#9673dd, #a251c2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 48px;
+    margin: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+    .container{
+    display: flex;
+}
+    .one{
+    background-image: url(item1.jpg);
+    
+}
+    .two{
+    background-image: url(item2.jpg);
+}
+    .three{
+    background-image: url(item3.jpg);
+}
+    .four{
+    background-image: url(item4.jpg);
+}
+    .five{
+    background-image: url(item5.jpg);
+}
+    .pic{
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        flex: 1;
+        margin: 5px;
+        position: relative;
+}
+    .selected{
+    flex: 4;
+}
+    h4{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: white;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 0;
+    }
+    .selected h4{
+    font-size: 40px;
+    transition: all 2s ease-in;
+    }
+a{
+    margin-left: 20px;
+    padding: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F48AF4;
+    font-size: 20px;
+}
+#monday{
+   display: inline-block;
+   transform: rotate(-10deg);
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+
+
+@media all and(max-width: 800px) {
+    .nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+    .item{
+        font-size: 18px; 
+        margin: 0px; 
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .first{
+    align-self: center;
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+        }
+    .par{
+        display: flex;
+        justify-content: center;
+    }
+    h3{
+        font-size: 14px;
+        margin: 20px;
+    }  
+p{
+    font-size: 14px;
+    margin-right: 10px;
+}
+}
+
+
+@media all and (max-width: 500px){
+    .item{
+        font-size: 12px;
+        margin: auto;
+    }
+        .main{
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+        p{
+    font-size: 14px;
+    
+    }
+h3{
+    font-size: 20px;
+}
+.selected h4{
+    font-size: 20px;
+            
+}
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+.head{
+    font-size: 22px;
+}
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+    min-width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .logo{
+        width: 40px;
+    }
+    
+    #monday{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    form{
+        margin-top: 25px;
+    }
+    .text-input{
+        font-size: 16px;
+        padding: 15px 7px;
+    }
+    .btn{
+        font-size: 24px;
+    margin: 15px;
+padding: 7px;
+width: 20vh;
+}
+}
+                
